@@ -9,12 +9,12 @@ import java.util.Scanner;
 
 /**
  *
- * @author mario
+ * @author miguel-ulver
  */
 public class PruebaPersona {
 
     /**
-     * @param args the command line arguments
+     * @main Esta parte del método instancia tres objetos de la clase Persona
      */
     public static void main(String[] args) {
         // TODO code application logic here
