@@ -16,10 +16,15 @@ public class Persona {
     static final int mayoriaEdad = 18;
 
     public Persona() {
-       // System.out.println("SE EST√Å EJECUTANDO EL CONSTRUCTOR POR DEFECTO, PORQUE SI!!!!!!!");
+       // System.out.println("SE EST¡ EJECUTANDO EL CONSTRUCTOR POR DEFECTO, PORQUE SI!!!!!!!");
     }
     
-    
+   /**
+    * Este constructor da atributos a los objetos de la clase Persona 
+    * @param nombrePers Nombre Persona
+    * @param apellidosPers Apellidos Persona
+    * @param edadPers Edad Persona
+    */
     Persona(String nombrePers, String apellidosPers, int edadPers){
         this();
         this.nombre = nombrePers;
